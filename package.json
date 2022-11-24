@@ -2,7 +2,10 @@
   "name": "homepage-plugin",
   "version": "2.4.0.0",
   "description": "OpenSearch Dashboards Homepage Plugin",
-  "main": "index.ts",
+  "main": "index.js",
+  "config": {
+    "id": "homepagePlugin"
+  },
   "scripts": {
     "build": "yarn plugin-helpers build",
     "plugin-helpers": "node ../../scripts/plugin_helpers",
@@ -14,5 +17,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "@opensearch-dashboards/homepage": "git+https://github.com/BionIT/welcome-page.git"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.5"
   }
 }

@@ -1,6 +1,5 @@
 import { App } from '@opensearch-dashboards/homepage';
 import { AppMountParameters, CoreStart } from '../../../../src/core/public';
-import React from 'react';
 import ReactDOM from 'react-dom';
 
 export const Homepage = (
