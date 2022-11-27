@@ -13,12 +13,18 @@
     "osd": "node ../../scripts/osd"
   },
   "dependencies": {
-    "next": "^13.0.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@opensearch-dashboards/homepage": "git+https://github.com/BionIT/welcome-page.git"
+    "@opensearch-dashboards/homepage": "git+https://github.com/BionIT/welcome-page.git",
+    "bootstrap": "^5.2.3",
+    "install": "^0.13.0",
+    "npm": "^9.1.2",
+    "react-bootstrap": "^2.6.0"
   },
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.16.5"
+    "@babel/plugin-transform-modules-commonjs": "^7.16.5",
+    "@elastic/elastic-eslint-config-kibana": "link:../../packages/opensearch-eslint-config-opensearch-dashboards",
+    "@elastic/eslint-import-resolver-kibana": "link:../../packages/osd-eslint-import-resolver-opensearch-dashboards"
+  },
+  "engines": {
+    "yarn": "^1.21.1"
   }
 }
